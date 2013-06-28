@@ -562,8 +562,8 @@ int _tmain(int argc, _TCHAR* argv[]){
 	Mat image;
 	Mat image_dst;
 
-	//mask = imread("D:/pic/mask.bmp");
-	mask = imread("D:/pic/213744310.jpg");
+	mask = imread("D:/pic/mask.bmp");
+	//mask = imread("D:/pic/213744310.jpg");
 
 
 	//cvtColor(mask, mask, CV_BGR2GRAY);
@@ -606,7 +606,7 @@ int _tmain(int argc, _TCHAR* argv[]){
 
 	Point2f pnt, vlc;
 
-	double V = 0.005;
+	double V = 0.02;
 	for (int i=0; i<N; i++){
 		//    ------------------ R  -----------------
 		pnt.x = rand()*fWidth/RAND_MAX;
